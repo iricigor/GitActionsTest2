@@ -1,5 +1,5 @@
 function TrimFolder ([string]$FolderName) {
-    $TrimmingChars = @([char]160, [char]32, [char]9)
+    $TrimmingChars = @([char]32, [char]9)
     $NewFolderName = $FolderName
     $Repeat = $true
     while ($Repeat) {
