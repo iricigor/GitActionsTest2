@@ -11,11 +11,11 @@ Planned process goes like this:
 
 ## Section 1
 
-First text in section one.
+Edited first text in section one from ConfTest branch.
 
 ## Section 2
 
-Second text goes into section two.
+Edited second text goes into section two from ConfTest branch.
 
 ## Section 3
 
