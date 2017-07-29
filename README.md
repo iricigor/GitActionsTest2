@@ -34,3 +34,12 @@ Switch to master. Simulate Nina's work.
 All tests in master should be fine. but they will not see my changes. **Commit to master.**
 
 Check that there are no my changes in master.
+
+# Second test
+
+Simulate merge conflicts between local and remote repo. Try manual and automatic resolving.
+
+1. Initially local and remote should be synced, i.e. do push from local repo.
+1. Make two changes on local and commit it. Do not push it! Changes should be on sections 1 and 2.
+1. Make two changes on remote and commit it. Check that local change is not there. Changes should be on sections 1 and 3.
+1. Push from local. It should do something about merge conflict. Section 2 should be automatically merged, but section 1 should be prompted.
