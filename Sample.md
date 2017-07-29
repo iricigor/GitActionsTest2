@@ -11,11 +11,11 @@ Planned process goes like this:
 
 ## Section 1
 
-Second update of first text in section one from master branch.
+Merged text from first section will be something completly new!
 
 ## Section 2
 
-Second text goes into section two.
+Edited second text goes into section two from ConfTest branch.
 
 ## Section 3
 
