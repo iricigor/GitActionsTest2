@@ -11,7 +11,7 @@ Planned process goes like this:
 
 ## Section 1
 
-Edited first text in section one from ConfTest branch.
+Merged text from first section will be something completly new!
 
 ## Section 2
 
@@ -19,4 +19,4 @@ Edited second text goes into section two from ConfTest branch.
 
 ## Section 3
 
-And last, third text goes into section three.
+Editing last, third text in section three  from master branch.
