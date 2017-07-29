@@ -11,7 +11,7 @@ Planned process goes like this:
 
 ## Section 1
 
-Merged text from first section will be something completly new!
+Merged text from first section will be something completely new!
 
 ## Section 2
 
