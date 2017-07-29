@@ -4,7 +4,12 @@ second testing of merging two branches
 
 ## Current status
 
-Step 2.2 finished and tested, second test failed.
+First test completed.
+
+Summary: **Rebase** will do following
+
+1. create new bracnh from master with same name patch1
+1. re-do all the steps from patch1
 
 # Details of each step
 
