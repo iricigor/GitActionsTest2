@@ -4,7 +4,7 @@ second testing of merging two branches
 
 ## Current status
 
-Step 1 finished and tested.
+Step 2.2 finished and tested, second test failed.
 
 # Details of each step
 

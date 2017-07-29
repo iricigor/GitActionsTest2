@@ -1,6 +1,8 @@
 function TrimFolder ([string]$FolderName) {
-    $TrimmingChars = @([char]160, [char]32, [char]9)
+    # $TrimmingChars = @([char]32, [char]9)
     $NewFolderName = $FolderName
+    # Igor's changes, removed as not needed trimming
+    <#
     $Repeat = $true
     while ($Repeat) {
         $Repeat = $false
@@ -11,6 +13,7 @@ function TrimFolder ([string]$FolderName) {
             }
         }
     }
+    #>
     return $NewFolderName
 }
 
