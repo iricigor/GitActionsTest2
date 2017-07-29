@@ -1,5 +1,5 @@
 function TrimFolder ([string]$FolderName) {
-    $TrimmingChars = @([char]160, char[32], char[9])
+    $TrimmingChars = @([char]160, [char]32, [char]9)
     $NewFolderName = $FolderName
     $Repeat = $true
     while ($Repeat) {
@@ -15,7 +15,8 @@ function TrimFolder ([string]$FolderName) {
 }
 
 function GetFolder ([string]$FolderName) {
-    if ($FolderName -match '(^.+)(\\*?$)') {
+    $FolderName = TrimFolder $FolderName
+    if ($FolderName -match '^(.+)(\\\*?$)') {
         return $Matches[1]
     } else {
         return $FolderName
@@ -30,3 +31,6 @@ function TestFolder {
     # test 3
     (GetFolder 'temp') -eq 'temp'
 }
+
+# Script start, should return TRUE for all tests
+TestFolder
